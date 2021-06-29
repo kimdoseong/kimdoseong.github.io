@@ -12,3 +12,9 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+  
+  # docs:
+  # - title: c++
+  #   children:
+  #     - title: "Effective C++"
+  #       url: /docs/Effective_C++/
