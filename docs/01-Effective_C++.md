@@ -1,5 +1,5 @@
 ---
-title: "Effective C++"
+title: "c++"
 permalink: /docs/Effective_C++/
 excerpt: "Effective_C++"
 last_modified_at: 2021-07-01
