@@ -9,7 +9,7 @@ toc_label: "Contents"
 categories:
  - "Design Pattern"
 tags:
- - [c++, Design_Pattern, Design_Pattern_행태]
+ - [C++, Design_Pattern_행태]
 
 date: 2021-08-04
 last_modified_at: 2021-08-04

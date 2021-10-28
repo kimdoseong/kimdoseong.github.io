@@ -1,5 +1,5 @@
 ---
-title:  "Prebuild Library"
+title:  "Prebuilt Library"
 excerpt: "미리 빌드된 라이브러리 사용"
 
 toc: true
@@ -9,7 +9,7 @@ toc_label: "Contents"
 categories:
  - "Android_Studio"
 tags:
- - [c++, Android_Studio]
+ - [Android_Studio]
 
 date: 2021-10-21
 last_modified_at: 2021-10-21
@@ -28,7 +28,7 @@ published: true
 일단 CMakeList나 mk는 모두 cpp 폴더 밑 같은 경로에 있는 전제입니다.  
 
   
-1. CMakeList.txt  
+## <span style="color:#8F7CEE"> 1.  CMakeList.txt </span>
 
 - 먼저 사용하고자 하는 라이브러리를 알맞은 시스템에 맞게 빌드되도록 jniLibs 아래에 만들어 넣어줍니다.  
 
@@ -43,9 +43,8 @@ published: true
 <img src="/assets/images/Android_Studio/20211021/3.png" width="70%" height="50%">  
 
 
-  
-2. Android.mk  
-
+## <span style="color:#8F7CEE"> 2. Android.mk  </span>
+ 
 - CMakeList와 마찬가지로 jniLibs 아래에 만드는 것까지 동일하게 한 후 mk 파일에서 위치를 선언해 줍니다.  
 
 <img src="/assets/images/Android_Studio/20211021/4.png" width="70%" height="50%">  
@@ -62,7 +61,7 @@ published: true
 ```
    sourceSets {
         main {
-            jniLibs.srcDirs = ['src/main/jni/jnilibs']
+            jniLibs.srcDirs = ['src/main/jni/jniLibs']
         }
     }
 ```
