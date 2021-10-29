@@ -1,20 +1,112 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    {% for post in site.posts %}
-    <url>
-        <loc>{{ site.url }}{{ post.url | remove: 'index.html' }}</loc>
-    </url>
-    {% endfor %}
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-    {% for page in site.pages %}
-    {% if page.layout != nil %}
-    {% if page.layout != 'feed' %}
-    <url>
-        <loc>{{ site.url }}{{ page.url | remove: 'index.html' }}</loc>
-    </url>
-    {% endif %}
-    {% endif %}
-    {% endfor %}
+
+<url>
+  <loc>https://kimdoseong.github.io/</loc>
+  <lastmod>2021-10-28T13:52:01+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://kimdoseong.github.io/categories/</loc>
+  <lastmod>2021-10-28T13:52:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kimdoseong.github.io/tags/</loc>
+  <lastmod>2021-10-28T13:52:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kimdoseong.github.io/c/c++/NULL_nullptr/</loc>
+  <lastmod>2021-10-28T13:52:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kimdoseong.github.io/c/c++/C-File_IO/</loc>
+  <lastmod>2021-10-28T13:52:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kimdoseong.github.io/c/c++/C++_File_IO/</loc>
+  <lastmod>2021-10-28T13:52:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kimdoseong.github.io/android_studio/Prebuilt_Library/</loc>
+  <lastmod>2021-10-28T13:52:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kimdoseong.github.io/c/c++/Chapter_8/</loc>
+  <lastmod>2021-10-28T13:52:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kimdoseong.github.io/page2/</loc>
+  <lastmod>2021-10-28T13:52:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kimdoseong.github.io/page3/</loc>
+  <lastmod>2021-10-28T13:52:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kimdoseong.github.io/c/c++/Chapter_7/</loc>
+  <lastmod>2021-10-28T13:52:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://kimdoseong.github.io/c/c++/Chpater_6/</loc>
+  <lastmod>2021-10-28T13:52:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://kimdoseong.github.io/c/c++/Chapter_5/</loc>
+  <lastmod>2021-10-28T13:52:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://kimdoseong.github.io/c/c++/Chapter_4/</loc>
+  <lastmod>2021-10-28T13:52:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://kimdoseong.github.io/c/c++/Chapter_3/</loc>
+  <lastmod>2021-10-28T13:52:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://kimdoseong.github.io/c/c++/Chapter_2/</loc>
+  <lastmod>2021-10-28T13:52:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://kimdoseong.github.io/c/c++/Chapter_1/</loc>
+  <lastmod>2021-10-28T13:52:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://kimdoseong.github.io/design%20pattern/Template_Method_Pattern/</loc>
+  <lastmod>2021-10-28T13:52:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://kimdoseong.github.io/design%20pattern/Strategy_Pattern/</loc>
+  <lastmod>2021-10-28T13:52:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://kimdoseong.github.io/xcode/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90-Lib&amp;%ED%8F%B4%EB%8D%94-%EC%B6%94%EA%B0%80/</loc>
+  <lastmod>2021-10-28T13:52:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
