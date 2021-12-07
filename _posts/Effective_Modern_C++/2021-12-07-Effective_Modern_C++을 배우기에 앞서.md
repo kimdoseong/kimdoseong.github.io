@@ -1,5 +1,5 @@
 ---
-title:  "Effective Modern C++을 배우기에 앞서.."
+title:  "Effective_Modern_C++을 공부하기 앞서.."
 excerpt: "우측값과 우측값 참조"
 
 toc: true

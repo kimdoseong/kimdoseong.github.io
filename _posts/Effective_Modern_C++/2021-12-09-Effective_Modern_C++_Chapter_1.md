@@ -1,5 +1,5 @@
 ---
-title:  "Chapter 1"
+title:  "Effective_Modern_C++_Chapter 1"
 excerpt: "형식 연역"
 
 toc: true

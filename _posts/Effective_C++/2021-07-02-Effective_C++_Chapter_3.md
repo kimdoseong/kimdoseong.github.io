@@ -1,5 +1,5 @@
 ---
-title:  "Chapter 3"
+title:  "Effective_C++_Chapter 3"
 excerpt: "자원 관리"
 
 toc: true

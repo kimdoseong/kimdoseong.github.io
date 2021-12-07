@@ -1,5 +1,5 @@
 ---
-title:  "Chapter 4"
+title:  "Effective_C++_Chapter 4"
 excerpt: "설계 및 선언"
 
 toc: true

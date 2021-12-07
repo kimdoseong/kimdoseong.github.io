@@ -1,5 +1,5 @@
 ---
-title:  "Chapter 6"
+title:  "Effective_C++_Chapter 6"
 excerpt: "상속, 그리고 객체 지향 설계"
 
 toc: true

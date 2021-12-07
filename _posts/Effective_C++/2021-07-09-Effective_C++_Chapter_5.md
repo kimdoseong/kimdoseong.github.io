@@ -1,5 +1,5 @@
 ---
-title:  "Chapter 5"
+title:  "Effective_C++_Chapter 5"
 excerpt: "구현"
 
 toc: true

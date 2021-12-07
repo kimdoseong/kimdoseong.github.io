@@ -7,7 +7,7 @@ toc_sticky: true
 toc_label: "Contents"
 
 categories:
- - "Android_Studio"
+ - "IDE"
 tags:
  - [Android_Studio]
 
@@ -32,26 +32,26 @@ published: true
 
 - 먼저 사용하고자 하는 라이브러리를 알맞은 시스템에 맞게 빌드되도록 jniLibs 아래에 만들어 넣어줍니다.  
 
-<img src="/assets/images/Android_Studio/20211021/1.png" width="70%" height="50%">  
+<img src="/assets/images/IDE/Android_Studio/20211021/1.png" width="70%" height="50%">  
 
 - CMakeList.txt file에서 so 파일이 있는 폴더를 포함해 줍니다.  
 
-<img src="/assets/images/Android_Studio/20211021/2.png" width="70%" height="50%">  
+<img src="/assets/images/IDE/Android_Studio/20211021/2.png" width="70%" height="50%">  
 
 - 그 후 target_link_libraries에 lib_Pre를 링크시켜주면 됩니다.   
 
-<img src="/assets/images/Android_Studio/20211021/3.png" width="70%" height="50%">  
+<img src="/assets/images/IDE/Android_Studio/20211021/3.png" width="70%" height="50%">  
 
 
 ## <span style="color:#8F7CEE"> 2. Android.mk  </span>
  
 - CMakeList와 마찬가지로 jniLibs 아래에 만드는 것까지 동일하게 한 후 mk 파일에서 위치를 선언해 줍니다.  
 
-<img src="/assets/images/Android_Studio/20211021/4.png" width="70%" height="50%">  
+<img src="/assets/images/IDE/Android_Studio/20211021/4.png" width="70%" height="50%">  
 
 그리고 참조한 프로젝트에 아래와 같이 연결해 주면 됩니다.  
 
-<img src="/assets/images/Android_Studio/20211021/5.png" width="70%" height="50%">  
+<img src="/assets/images/IDE/Android_Studio/20211021/5.png" width="70%" height="50%">  
 
   
 당연히 미리 빌드된 라이브러리 내의 함수를 사용하고자 하면 해당 헤더 파일을 타겟 프로젝트에 포함시켜 주면 됩니다.  

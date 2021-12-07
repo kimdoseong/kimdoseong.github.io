@@ -1,5 +1,5 @@
 ---
-title:  "Chapter 7"
+title:  "Effective_C++_Chapter 7"
 excerpt: "템플릿과 일반화 프로그래밍"
 
 toc: true

@@ -1,5 +1,5 @@
 ---
-title:  "Chapter 2"
+title:  "Effective_C++_Chapter 2"
 excerpt: "생성자, 소멸자 및 대입 연산자"
 
 toc: true

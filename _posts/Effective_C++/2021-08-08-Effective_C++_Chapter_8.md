@@ -1,5 +1,5 @@
 ---
-title:  "Chapter 8"
+title:  "Effective_C++_Chapter 8"
 excerpt: "new와 delete를 내 맘대로"
 
 toc: true
