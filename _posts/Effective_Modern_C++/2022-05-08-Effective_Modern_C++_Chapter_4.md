@@ -12,7 +12,7 @@ tags:
  - [C++, Effective_Modern_C++]
 
 date: 2022-05-08
-last_modified_at: 2022-06-10
+last_modified_at: 2022-06-16
 
 published: true
 ---
