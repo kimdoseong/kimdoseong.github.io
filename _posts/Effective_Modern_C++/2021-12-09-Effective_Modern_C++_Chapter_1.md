@@ -142,11 +142,11 @@ auto의 형식도 템플릿 형식 연역과 똑같이 작동한다.
 const char name[] = "kimdoseong";
 
 auto arr1 = name; // const char*
-auto arr2 = name; // const char &[11]
+auto& arr2 = name; // const char &[11]
 
 void Func(int, double);
 auto func1 = Func // void(*)(int, double)
-auto func2 = Func // void(&)(int, double)
+auto& func2 = Func // void(&)(int, double)
 ```
 
 그러나 다른점도 존재한다.  
